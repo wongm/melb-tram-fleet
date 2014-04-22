@@ -14,10 +14,6 @@ $melbourne_trams['W7'] = array(1005, 1010, 1012, 1015, 1019, 1020, 1022, 1031, 1
 
 //Z1
 $melbourne_trams['Z1'] = array(1, 4, 9, 10, 14, 16, 19, 22, 23, 28, 30, 34, 35, 39, 52, 56, 59, 63, 65, 69, 70, 71, 78, 86, 88, 92, 94, 95, 96, 100);
-//for ($i = 1; $i <= 100; $i++)
-{
-//	$melbourne_trams['Z1'][] = $i;
-}
 
 //Z2
 $melbourne_trams['Z2'] = array(101, 113, 114);
@@ -25,40 +21,40 @@ $melbourne_trams['Z2'] = array(101, 113, 114);
 //Z3
 for ($i = 116; $i <= 230; $i++)
 {
-	if ($i != 149)
-	{
-		$melbourne_trams['Z3'][] = $i;		
-	}
+    if ($i != 149)
+    {
+        $melbourne_trams['Z3'][] = $i;
+    }
 }
 
 //A1
 for ($i = 231; $i <= 258; $i++)
 {
-	$melbourne_trams['A1'][] = $i;
+    $melbourne_trams['A1'][] = $i;
 }
 
 //A2
 for ($i = 259; $i <= 300; $i++)
 {
-	$melbourne_trams['A2'][] = $i;
+    $melbourne_trams['A2'][] = $i;
 }
 
 //B1
 for ($i = 2001; $i <= 2002; $i++)
 {
-	$melbourne_trams['B1'][] = $i;
+    $melbourne_trams['B1'][] = $i;
 }
 
 //B2
 for ($i = 2003; $i <= 2132; $i++)
 {
-	$melbourne_trams['B2'][] = $i;
+    $melbourne_trams['B2'][] = $i;
 }
 
 //C
 for ($i = 3001; $i <= 3036; $i++)
 {
-	$melbourne_trams['C'][] = $i;
+    $melbourne_trams['C'][] = $i;
 }
 
 //C2
@@ -67,32 +63,17 @@ $melbourne_trams['C2'] = array(5103, 5106, 5111, 5113, 5123);
 //D1
 for ($i = 3501; $i <= 3538; $i++)
 {
-	$melbourne_trams['D1'][] = $i;
+    $melbourne_trams['D1'][] = $i;
 }
 
 //D2
 for ($i = 5001; $i <= 5021; $i++)
 {
-	$melbourne_trams['D2'][] = $i;
+    $melbourne_trams['D2'][] = $i;
 }
-
-
-?>
-<pre>
-<?
-//print_r($melbourne_trams);
-?>
-</pre>
-
-<ul>
-<?php
-foreach ($melbourne_trams as $class => $trams)
+//E
+for ($i = 6001; $i <= 6006; $i++)
 {
-	foreach ($trams as $tram_number)
-	{
-		$tram = $class . '.' . $tram_number;
-		echo '<li><a href="http://railgallery.wongm.com/page/search/' . $tram . '">' . $tram . '</a>';
-	}
+    $melbourne_trams['E'][] = $i;
 }
 ?>
-</ul>
