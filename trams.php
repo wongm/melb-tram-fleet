@@ -4,19 +4,22 @@
 $melbourne_trams['SW5'] = array(845, 846);
 
 //SW6
-$melbourne_trams['SW6'] = array(852, 854, 856, 866, 870, 881, 884, 888, 892, 986, 905, 907, 925, 928, 929, 937, 938, 939, 946, 953, 954, 960, 961);
+$melbourne_trams['SW6'] = array(856, 866, 888, 925, 928, 937, 938, 939, 961);
 
 //W6
-$melbourne_trams['W6'] = array(971, 977, 981, 982, 983, 992, 1000);
+$melbourne_trams['W6'] = array(981, 983, 1000);
 
 //W7
-$melbourne_trams['W7'] = array(1005, 1010, 1012, 1015, 1019, 1020, 1022, 1031, 1039);
+$melbourne_trams['W7'] = array(1020);
+
+//W8
+$melbourne_trams['W8'] = array(946, 957, 959);
 
 //Z1
-$melbourne_trams['Z1'] = array(1, 4, 9, 10, 14, 16, 19, 22, 23, 28, 30, 34, 35, 39, 52, 56, 59, 63, 65, 69, 70, 71, 78, 86, 88, 92, 94, 95, 96, 100);
+$melbourne_trams['Z1'] = array(9, 16, 22, 23, 28, 30, 34, 35, 52, 56, 59, 65, 69, 70, 71, 78, 86, 88, 92, 94, 95);
 
 //Z2
-$melbourne_trams['Z2'] = array(101, 113, 114);
+$melbourne_trams['Z2'] = array(101, 114);
 
 //Z3
 for ($i = 116; $i <= 230; $i++)
