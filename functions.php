@@ -18,18 +18,12 @@ function getTramClass($fleetNumber)
 {
     global $melbourne_trams;
     
-    if (in_array($fleetNumber, $melbourne_trams['Z1']))
-        return 'Z1';
-    if (in_array($fleetNumber, $melbourne_trams['Z2']))
-        return 'Z2';
     if (in_array($fleetNumber, $melbourne_trams['Z3']))
         return 'Z3';
     if (in_array($fleetNumber, $melbourne_trams['A1']))
         return 'A1';
     if (in_array($fleetNumber, $melbourne_trams['A2']))
         return 'A2';
-    if ($fleetNumber >= 2001 && $fleetNumber <= 2002)
-        return 'B1';
     if ($fleetNumber >= 2003 && $fleetNumber <= 2132)
         return 'B2';
     if ($fleetNumber >= 3001 && $fleetNumber <= 3036)

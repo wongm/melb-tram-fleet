@@ -39,12 +39,6 @@ for ($i = 259; $i <= 300; $i++)
     $melbourne_trams['A2'][] = $i;
 }
 
-//B1
-for ($i = 2001; $i <= 2002; $i++)
-{
-    $melbourne_trams['B1'][] = $i;
-}
-
 //B2
 for ($i = 2003; $i <= 2132; $i++)
 {
