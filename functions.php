@@ -32,6 +32,10 @@ function getTramClass($fleetNumber)
         return 'D1';
     if ($fleetNumber >= 5001 && $fleetNumber <= 5021)
         return 'D2';
+    if ($fleetNumber >= 6001 && $fleetNumber <= 6050)
+        return 'E';
+    if ($fleetNumber >= 6051 && $fleetNumber <= 6080)
+        return 'E2';
     if (in_array($fleetNumber, $melbourne_trams['C2']))
         return 'C2';
     if (in_array($fleetNumber, $melbourne_trams['E']))

@@ -70,4 +70,9 @@ for ($i = 6001; $i <= 6050; $i++)
 {
     $melbourne_trams['E'][] = $i;
 }
+//E2
+for ($i = 6051; $i <= 6080; $i++)
+{
+    $melbourne_trams['E2'][] = $i;
+}
 ?>
