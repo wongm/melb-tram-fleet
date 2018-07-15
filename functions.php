@@ -42,14 +42,14 @@ function getTramClass($fleetNumber)
         return 'C2';
     if (in_array($fleetNumber, $melbourne_trams['E']))
         return 'E';
-    if (in_array($fleetNumber, $melbourne_trams['SW5']))
-        return 'SW5';
     if (in_array($fleetNumber, $melbourne_trams['SW6']))
         return 'SW6';
     if (in_array($fleetNumber, $melbourne_trams['W6']))
         return 'W6';
     if (in_array($fleetNumber, $melbourne_trams['W7']))
         return 'W7';
+    if (in_array($fleetNumber, $melbourne_trams['W8']))
+        return 'W8';
         
     return null;
 }

@@ -1,19 +1,16 @@
 <?php
 
-//SW5
-$melbourne_trams['SW5'] = array(845, 846);
-
 //SW6
-$melbourne_trams['SW6'] = array(856, 866, 888, 925, 928, 937, 938, 939, 961);
+$melbourne_trams['SW6'] = array(888, 925, 928, 937, 938, 939, 961);
 
 //W6
-$melbourne_trams['W6'] = array(981, 983, 1000);
+$melbourne_trams['W6'] = array(983, 1000);
 
 //W7
 $melbourne_trams['W7'] = array(1020);
 
 //W8
-$melbourne_trams['W8'] = array(946, 957, 959);
+$melbourne_trams['W8'] = array(946, 957, 959, 981, 1010);
 
 //Z1
 $melbourne_trams['Z1'] = array(9, 16, 22, 23, 28, 30, 34, 35, 52, 56, 59, 65, 69, 70, 71, 78, 86, 88, 92, 94, 95);
