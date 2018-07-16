@@ -1,8 +1,8 @@
 <?php
 
-include_once('trams.php');
-include_once('routes.php');
-include_once('depots.php');
+include_once(__DIR__ . '/trams.php');
+include_once(__DIR__ . '/routes.php');
+include_once(__DIR__ . '/depots.php');
 
 function getTramClassAndNumber($fleetNumber)
 {
