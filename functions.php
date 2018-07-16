@@ -1,6 +1,8 @@
 <?php
 
 include_once('trams.php');
+include_once('routes.php');
+include_once('depots.php');
 
 function getTramClassAndNumber($fleetNumber)
 {
