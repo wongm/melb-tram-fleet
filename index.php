@@ -16,11 +16,11 @@ include_once('functions.php');
 echo "<h2>Trams</h2>";
 echo "<ul>";
 
-foreach ($melbourne_trams as $class => $trams)
+foreach ($melbourne_trams as $class => $classData)
 {
     echo "<li><p>$class class:</p><ul>";
     
-    foreach ($trams as $tram_number)
+    foreach ($classData['trams'] as $tram_number)
     {
         $tram = $class . '.' . $tram_number;
         echo '<li><a href="http://railgallery.wongm.com/page/search/' . $tram . '">' . $tram . '</a>';
