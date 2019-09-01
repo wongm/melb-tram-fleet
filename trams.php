@@ -113,7 +113,7 @@ for ($i = 6001; $i <= 6050; $i++)
 $melbourne_trams['E2']['low-floor'] = true;
 $melbourne_trams['E2']['air-conditioned'] = true;
 $melbourne_trams['E2']['trams'] = array();
-for ($i = 6051; $i <= 6080; $i++)
+for ($i = 6051; $i <= 6090; $i++)
 {
     $melbourne_trams['E2']['trams'][] = $i;
 }
