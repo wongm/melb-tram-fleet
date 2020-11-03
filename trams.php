@@ -3,7 +3,7 @@
 //SW6
 $melbourne_trams['SW6']['low-floor'] = false;
 $melbourne_trams['SW6']['air-conditioned'] = false;
-$melbourne_trams['SW6']['trams'] = array(925, 937, 938, 939);
+$melbourne_trams['SW6']['trams'] = array(937, 938, 939);
 
 //W6
 $melbourne_trams['W6']['low-floor'] = false;
@@ -18,7 +18,7 @@ $melbourne_trams['W7']['trams'] = array(1020);
 //W8
 $melbourne_trams['W8']['low-floor'] = false;
 $melbourne_trams['W8']['air-conditioned'] = false;
-$melbourne_trams['W8']['trams'] = array(856, 888, 928, 946, 957, 959, 961, 981, 983, 1010);
+$melbourne_trams['W8']['trams'] = array(856, 888, 925, 928, 946, 957, 959, 961, 981, 983, 1010);
 
 //Z1
 $melbourne_trams['Z1']['low-floor'] = false;
