@@ -24,8 +24,8 @@ $tram_routes['D1'] = array(5,6,16,58,72);
 
 $tram_routes['D2'] = array(6,19);
 
-$tram_routes['E'] = array(11,86,96);
+$tram_routes['E'] = array(11,30,86,96);
 
-$tram_routes['E2'] = array(11,86,96);
+$tram_routes['E2'] = array(11,30,86,96);
 
 ?>
