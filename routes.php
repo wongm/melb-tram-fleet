@@ -20,12 +20,12 @@ $tram_routes['C'] = array(48,109);
 
 $tram_routes['C2'] = array(96);
 
-$tram_routes['D1'] = array(5,6,16,58,72);
+$tram_routes['D1'] = array(5,6,16,72);
 
 $tram_routes['D2'] = array(6,19);
 
-$tram_routes['E'] = array(11,30,86,96);
+$tram_routes['E'] = array(11,30,58,86,96);
 
-$tram_routes['E2'] = array(11,30,86,96);
+$tram_routes['E2'] = array(11,30,58,86,96);
 
 ?>
