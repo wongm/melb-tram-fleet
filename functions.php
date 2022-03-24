@@ -42,8 +42,6 @@ function getTramClass($fleetNumber)
         return 'C2';
     if (in_array($fleetNumber, $melbourne_trams['SW6']['trams']))
         return 'SW6';
-    if (in_array($fleetNumber, $melbourne_trams['W6']['trams']))
-        return 'W6';
     if (in_array($fleetNumber, $melbourne_trams['W7']['trams']))
         return 'W7';
     if (in_array($fleetNumber, $melbourne_trams['W8']['trams']))

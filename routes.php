@@ -2,8 +2,6 @@
 
 $tram_routes['SW6'] = array(35);
 
-$tram_routes['W6'] = array(35);
-
 $tram_routes['W7'] = array(35);
 
 $tram_routes['W8'] = array(35);
