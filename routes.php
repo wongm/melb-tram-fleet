@@ -6,7 +6,7 @@ $tram_routes['W7'] = array(35);
 
 $tram_routes['W8'] = array(35);
 
-$tram_routes['Z3'] = array(1,3,"3a",4,5,6,16,72,57,58,64,67,82); //19?
+$tram_routes['Z3'] = array(1,3,"3a",4,5,6,16,72,57,58,59,64,67,82); //19?
 
 $tram_routes['A1'] = array(3,"3a",4,12,30,48,64,67,70,75,78,109);
 
